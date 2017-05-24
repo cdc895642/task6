@@ -1,4 +1,4 @@
-package com.softserve.edu.tickets;
+package com.softserve.edu.task6.tickets;
 
 /**
  * Created by cdc89 on 24.05.2017.

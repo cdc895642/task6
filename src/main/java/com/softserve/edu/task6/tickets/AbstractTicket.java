@@ -1,4 +1,4 @@
-package com.softserve.edu.tickets;
+package com.softserve.edu.task6.tickets;
 
 /**
  * base functionality for classes which implement Ticket

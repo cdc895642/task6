@@ -1,4 +1,4 @@
-package com.softserve.edu.tickets;
+package com.softserve.edu.task6.tickets;
 
 import java.io.IOException;
 import java.nio.file.Files;

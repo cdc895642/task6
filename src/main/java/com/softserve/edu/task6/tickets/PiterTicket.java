@@ -1,4 +1,4 @@
-package com.softserve.edu.tickets;
+package com.softserve.edu.task6.tickets;
 
 /**
  * represent Piter logic for determine lucky tickets

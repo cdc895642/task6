@@ -1,6 +1,4 @@
-package com.softserve.edu.tickets;
-
-import java.util.Arrays;
+package com.softserve.edu.task6.tickets;
 
 /**
  * represent Moskow logic for determine lucky tickets

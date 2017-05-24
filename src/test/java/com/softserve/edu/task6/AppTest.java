@@ -1,4 +1,4 @@
-package com.softserve.edu;
+package com.softserve.edu.task6;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

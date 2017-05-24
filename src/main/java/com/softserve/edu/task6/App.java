@@ -1,6 +1,6 @@
-package com.softserve.edu;
+package com.softserve.edu.task6;
 
-import com.softserve.edu.tickets.TicketProcessor;
+import com.softserve.edu.task6.tickets.TicketProcessor;
 
 /**
  * entry point for the app
