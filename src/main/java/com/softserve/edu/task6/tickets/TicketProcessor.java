@@ -11,6 +11,10 @@ import java.util.Scanner;
  * Created by cdc89 on 25.05.2017.
  */
 public class TicketProcessor {
+    /**
+     * get file name with key word and
+     * sum lucky tickets
+     */
     public void execute(){
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
