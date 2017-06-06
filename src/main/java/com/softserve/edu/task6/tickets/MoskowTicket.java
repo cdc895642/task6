@@ -5,15 +5,16 @@ package com.softserve.edu.task6.tickets;
  * Created by cdc89 on 24.05.2017.
  */
 public class MoskowTicket extends AbstractTicket {
+    public MoskowTicket(int input) {
+        super(input);
+    }
+
     @Override
     public boolean isLucky() {
-        if ((matrix[0]+matrix[1]+matrix[2]) ==(matrix[3]+matrix[4]+matrix[5])){
+        if ((matrix[0] + matrix[1] + matrix[2]) == (matrix[3] + matrix[4] +
+                matrix[5])) {
             return true;
         }
         return false;
-    }
-
-    public MoskowTicket(int input){
-        super(input);
     }
 }

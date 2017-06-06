@@ -11,7 +11,8 @@ public class PiterTicket extends AbstractTicket {
 
     @Override
     public boolean isLucky() {
-        if ((matrix[0]+matrix[2]+matrix[4]) ==(matrix[1]+matrix[3]+matrix[5])){
+        if ((matrix[0] + matrix[2] + matrix[4]) == (matrix[1] + matrix[3] +
+                matrix[5])) {
             return true;
         }
         return false;

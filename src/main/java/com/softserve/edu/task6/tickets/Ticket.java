@@ -6,6 +6,7 @@ package com.softserve.edu.task6.tickets;
 public interface Ticket {
     /**
      * check if ticket is lucky
+     *
      * @return true if ticket is lucky
      */
     public boolean isLucky();

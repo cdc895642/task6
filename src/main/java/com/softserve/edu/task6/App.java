@@ -1,5 +1,6 @@
 package com.softserve.edu.task6;
 
+import com.softserve.edu.task6.tickets.ConsoleReader;
 import com.softserve.edu.task6.tickets.TicketProcessor;
 
 /**
@@ -7,7 +8,8 @@ import com.softserve.edu.task6.tickets.TicketProcessor;
  */
 public class App {
     public static void main(String[] args) {
-        TicketProcessor ticketProcessor=new TicketProcessor();
+        TicketProcessor ticketProcessor = new TicketProcessor(new
+                ConsoleReader(System.in), System.out);
         ticketProcessor.execute();
     }
 }
