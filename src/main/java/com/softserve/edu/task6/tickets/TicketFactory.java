@@ -6,7 +6,7 @@ package com.softserve.edu.task6.tickets;
  */
 public abstract class TicketFactory {
     public static Ticket getInstance(String city, int input) {
-        if (city==null){
+        if (city == null) {
             return null;
         }
         switch (city) {
